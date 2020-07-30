@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(255, 0, 0, 0.034);
+}
+
+div > h2 {
+    color: pink;
+}
+
+main {
+    margin-top: 100px;
+}
+
+main > div {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+  
+img {
+    width: 100%;
+    border: 2px solid rgba(255, 0, 0, 0.596);
+    border-radius: 10px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 39%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 21%;
+    border-radius: 3px 0 0 3px;
+}
+.prev {
+    left: 21%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
