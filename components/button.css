@@ -52,6 +52,8 @@ button:focus{
 	color: inherit;
 }
 .btn-accept {
+	font-weight: bold;
+    font-size: 16px;
 	cursor: pointer;
 	color: #00ff00;
 	border: 1px solid #00ff00;
@@ -82,6 +84,23 @@ button:focus{
 	color: white;
 	background-color: red;
 	border: none;
+}
+.btn-tweet {
+	cursor: pointer;
+    color: #d4321d;
+    background-color: inherit;
+	border-radius: 4px;
+	padding: 7px 24px;
+	font-weight: bolder;
+	text-decoration: none;
+    border: 1px solid #d4321d;
+    opacity: .7;
+}
+.btn-tweet:hover {
+    background-color: #d4321d;
+    border: none;
+    opacity: 1;
+    color: white;
 }
 .btn-bluee{
 	color: #0000ff;
